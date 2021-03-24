@@ -9,7 +9,7 @@
   "scripts": {
     "clean": "rm dist/*",
     "start": "parcel index.html",
-    "build-prod": "npx -p parcel-bundler parcel build index.js"
+    "build-prod": "parcel build index.js"
   },
   "dependencies": {
     "@apollo/client": "^3.3.12",
