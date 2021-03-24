@@ -23,7 +23,7 @@ class App {
 
     init() {
         if (process.env.NODE_ENV === 'production') {
-            const staticFolder = path.join(__dirname, '../../client/dist')
+            const staticFolder = path.join(__dirname, '../../public')
             this.app.set('view-engine', 'ejs')
             this.app.use(express.static(staticFolder))
 
