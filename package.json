@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "server": "nodemon index.js",
-    "start": "NODE_ENV=production cd client && npm install && npm run build-prod && cd .. && npm run start:prod",
-    "start:prod": "NODE_ENV=production nodemon index.js",
+    "start": "NODE_ENV=production nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
