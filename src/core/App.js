@@ -56,13 +56,13 @@ class App {
     }
 
     startGql() {
-        const server = new ApolloServer({
+        const apolloServer = new ApolloServer({
             typeDefs,
             resolvers,
             context,
         })
 
-        server.applyMiddleware({
+        apolloServer.applyMiddleware({
             app: this.app
         });
     }
