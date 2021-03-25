@@ -13,8 +13,6 @@ const updateUser = (_, {
     }, {
         runValidators: true,
         new: true,
-    }).catch(err => {
-        return err
     })
 }
 

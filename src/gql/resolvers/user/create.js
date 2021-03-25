@@ -11,9 +11,6 @@ const createUser = (_, {
             name,
             email
         })
-        .catch(err => {
-            return err
-        })
 }
 
 module.exports = createUser
